@@ -8,8 +8,6 @@ public class SimpleCalendar {
         int month = 10; // Monat einstellen (Januar = 0, Februar = 1, usw.)
         printCalendar(year, month);
 
-
-
     }
 
     public static void printCalendar(int year, int month) {

@@ -9,6 +9,10 @@ public class Kalender {
         Scanner scanner = new Scanner(System.in);
         List<Termin> termine = new ArrayList<>();
 
+        int year = 2022; // Jahr einstellen
+        int month = 10; // Monat einstellen (Januar = 0, Februar = 1, usw.)
+        SimpleCalendar.printCalendar(year, month);
+
         while (true) {
             System.out.println("Bitte geben Sie das Datum (dd.MM.yyyy) ein oder 'exit' zum Beenden:");
             String eingabe = scanner.nextLine();

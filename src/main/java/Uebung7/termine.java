@@ -1,6 +1,6 @@
 package Uebung7;
 import java.util.*;
-
+//das ist die Termin class
 class Termin implements Comparable<Termin> {
     private Date datum;
     private String uhrzeit;

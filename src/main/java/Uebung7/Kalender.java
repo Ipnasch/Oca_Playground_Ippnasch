@@ -3,7 +3,7 @@ package Uebung7;
 import java.text.SimpleDateFormat;
 import java.util.*;
 // localdate format ist aktueller
-
+//das ist die main classe
 public class Kalender {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -61,8 +61,12 @@ public class Kalender {
             }
         } catch (Exception e) {
             System.out.println("Ungültiges Datum. Bitte versuchen Sie es erneut.");
+
         }
 
         scanner.close();
+        /*int year = 2022; // Jahr einstellen
+        int month = 10; // Monat einstellen (Januar = 0, Februar = 1, usw.)
+        SimpleCalendar.printCalendar(year, month);*/
     }
 }

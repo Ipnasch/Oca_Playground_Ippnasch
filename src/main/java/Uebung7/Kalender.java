@@ -16,6 +16,7 @@ public class Kalender {
             if (eingabe.equals("exit")) {
                 break;
             }//hallo
+            //test
 
             try {
                 System.out.println("Bitte geben Sie die Uhrzeit (hh:mm) ein:");

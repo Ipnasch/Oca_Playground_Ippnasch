@@ -50,8 +50,7 @@ public class Lager {
             System.out.println("Preis: " + produkt.getPreis());
             System.out.println("Stueckzahl: " + produkt.getAnzahl());
 
-            if (produkt instanceof VerderblichesProdukt) {
-                VerderblichesProdukt verderblichesProdukt = (VerderblichesProdukt) produkt;
+            if (produkt instanceof VerderblichesProdukt verderblichesProdukt) {
                 System.out.println("Verfallsdatum: " + verderblichesProdukt.getVerfallsdatum());
             }
 

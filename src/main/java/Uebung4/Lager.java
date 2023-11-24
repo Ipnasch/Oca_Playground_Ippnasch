@@ -29,7 +29,7 @@ public class Lager {
 
             System.out.println("Bitte geben Sie die Stueckzahl " + (i + 1) + " ein:");
             String anzahl = sc.nextLine();
-
+                            //neu
             if (produktTyp == 1) {
                 produkte[i] = new Produkt(wareneingang, produktname, preis, anzahl);
             } else if (produktTyp == 2) {
@@ -49,7 +49,7 @@ public class Lager {
             System.out.println("Produktname: " + produkt.getProduktname());
             System.out.println("Preis: " + produkt.getPreis());
             System.out.println("Stueckzahl: " + produkt.getAnzahl());
-
+                        //abfrage
             if (produkt instanceof VerderblichesProdukt verderblichesProdukt) {
                 System.out.println("Verfallsdatum: " + verderblichesProdukt.getVerfallsdatum());
             }

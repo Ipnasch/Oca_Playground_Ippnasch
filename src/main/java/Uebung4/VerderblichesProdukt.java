@@ -4,7 +4,7 @@ public class VerderblichesProdukt extends Produkt {
     private final String verfallsdatum;
 
     public VerderblichesProdukt(String wareneingang, String produktname, String preis, String anzahl, String verfallsdatum) {
-        super(wareneingang, produktname, preis, anzahl);
+        super(wareneingang, produktname, preis, anzahl); //geerbtes
         this.verfallsdatum = verfallsdatum;
     }
 

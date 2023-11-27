@@ -7,7 +7,6 @@ public class VerderblichesProdukt extends Produkt {
         super(wareneingang, produktname, preis, anzahl); //geerbtes
         this.verfallsdatum = verfallsdatum;
     }
-
     public String getVerfallsdatum() {
         return verfallsdatum;
     }

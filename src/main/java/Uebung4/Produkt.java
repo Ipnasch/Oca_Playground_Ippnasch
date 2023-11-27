@@ -1,5 +1,4 @@
 package Uebung4;
-//nix
 public class Produkt {
     private final String wareneingang;
     private final String produktname;
